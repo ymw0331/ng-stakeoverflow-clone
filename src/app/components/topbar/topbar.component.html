@@ -1,0 +1,10 @@
+<div class="nav-container">
+    <div class="branding">
+        StakeOverflow
+    </div>
+
+    <div class="logout-container" *ngIf="userService.user != undefined">
+        <button mat-button (click)="logout()">Logout</button>
+    </div>
+
+</div>

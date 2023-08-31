@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "wayne@gmail.com",
+      "username": "wayne",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "questions": [
+    {
+      "username": "wayne",
+      "question": "first question asked in the forum",
+      "solutions": [
+        {
+          "username": "wayne",
+          "solution": "i think we make just crete a random answer somehow",
+          "upvotes": [
+            1
+          ],
+          "downvotes": []
+        },
+        {
+          "username": "wayne",
+          "solution": "another solution posted",
+          "upvotes": [],
+          "downvotes": [
+            1
+          ]
+        },
+        {
+          "username": "wayne",
+          "solution": "test",
+          "upvotes": [
+            1
+          ],
+          "downvotes": []
+        },
+        {
+          "username": "wayne",
+          "solution": "testing one two three",
+          "upvotes": [],
+          "downvotes": []
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
